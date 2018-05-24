@@ -1,0 +1,7 @@
+{
+  "name": "repnet",
+  "short_name": "repnet",
+  "description": "RepNet a network where reputation matters",
+  "start_url": "/",
+  "display": "standalone"
+}
