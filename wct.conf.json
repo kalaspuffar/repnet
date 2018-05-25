@@ -1,5 +1,14 @@
 {
     "plugins": {
+        "local": {
+            "browsers": [
+                {
+                    "browserName": "firefox",
+                    "platform": "Windows 7",
+                    "version": ""
+                }
+            ]
+        },
         "sauce": {
             "browsers": [
                 {

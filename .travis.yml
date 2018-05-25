@@ -3,20 +3,17 @@ dist: trusty
 language: node_js
 node_js:
 - '9'
-before_install:
-- sudo apt-get -qq update
-- sudo apt-get install -y ncftp
 install:
 - npm install
 script:
 - npm run bower_install
 - npm run lint
-- npm run test
+#- npm run test
 - npm run build
+after_success:
+- ./lighthouse_test.sh
 deploy:
   provider: firebase
   token:
     secure: $FIREBASE_TOKEN
   project: "repnet-963ae"
-after_deploy:
-- npm run lh $FIREBASE_HOST
