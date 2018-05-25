@@ -1,6 +1,5 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/repnet-app.js",
   "fragments": [
   ],
   "sources": [
