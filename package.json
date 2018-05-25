@@ -16,7 +16,8 @@
     "polymer-cli": "^1.7.2",
     "sinon": "^5.0.10",
     "test-fixture": "^1.0.2",
-    "web-component-tester": "^6.6.0"
+    "web-component-tester": "^6.6.0",
+    "firebase-tools": "^3.18.5"
   },
   "scripts": {
     "bower_install": "bower install",
@@ -25,7 +26,8 @@
     "test": "polymer test --skip-plugin local",
     "test_local": "polymer test --skip-plugin sauce --plugin local",
     "build": "polymer build",
-    "lh": "lighthouse-ci --score=96 --runner=wpt"
+    "lh": "lighthouse-ci --score=96 --runner=wpt",
+    "deploy_staging": "firebase deploy --project repnet-staging"
   },
   "dependencies": {
     "@polymer/lit-element": "^0.5.1"
