@@ -15,5 +15,5 @@ if [ "${TRAVIS_TEST_RESULT}" = "1" ]; then
   exit
 fi
 
-npm run deploy_staging -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
+npm run deploy_staging $FIREBASE_TOKEN
 npm run lh $FIREBASE_HOST
