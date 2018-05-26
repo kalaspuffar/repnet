@@ -45,6 +45,10 @@ export class RepnetApp extends LitElement {
           margin: 0 auto;          
         }
 
+        h1 {
+          font-family: 'Changa One', cursive;
+        }
+
         h1, h2, h3 {
           padding: 5px;
         }
@@ -52,7 +56,7 @@ export class RepnetApp extends LitElement {
       <div class="fullscreen">
         <div class="mid-banner">
           <img width="100px" alt="Spider web" src="../images/spider-web.png" />          
-          <h1>RepNet</h1>
+          <h1>REPNET</h1>
           <h2>The network where reputation matters</h2>
           <h3>We bind trolls and promote innovation</h3>
         </div>
