@@ -11,7 +11,6 @@ script:
 - npm run build
 after_success:
 - ./lighthouse_test.sh
-- npm run lh $FIREBASE_LIGHTHOUSE_URL
 deploy:
   provider: firebase
   token:
