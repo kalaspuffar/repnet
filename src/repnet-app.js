@@ -62,7 +62,7 @@ export class RepnetApp extends LitElement {
           <img width="100px" alt="Spider web" src="../images/spider-web.png" />          
           <h1>REPNET</h1>
           <h2>The network where reputation matters</h2>
-          <h3>We bind trolls and promote innovation</h3>
+          <h3>We promote innovation and demote trolls</h3>
         </div>
       </div>
     `;
