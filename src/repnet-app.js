@@ -16,6 +16,7 @@ export class RepnetApp extends LitElement {
         * {
           margin: 0;
           padding: 0;
+          font-family: 'Verdana', cursive;          
         }
         
         .mid-banner {
@@ -46,7 +47,10 @@ export class RepnetApp extends LitElement {
         }
 
         h1 {
-          font-family: 'Changa One', cursive;
+          font-family: 'Bungee', cursive;
+          font-size: 60px;        
+          line-height: 1;
+          padding: 0;
         }
 
         h1, h2, h3 {
