@@ -16,4 +16,3 @@ if [ "${TRAVIS_TEST_RESULT}" = "1" ]; then
 fi
 
 npm run deploy_staging $FIREBASE_TOKEN
-- npm run lh $FIREBASE_LIGHTHOUSE_URL
