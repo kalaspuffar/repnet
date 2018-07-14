@@ -3,7 +3,6 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@polymer/test-fixture": "^3.0.0-pre.19",
-    "@webcomponents/webcomponentsjs": "^2.0.0",
     "async": "^2.6.1",
     "bower": "^1.8.4",
     "chai": "^4.1.2",
@@ -30,6 +29,7 @@
     "deploy_staging": "firebase deploy --project repnet-staging --non-interactive --token"
   },
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
     "@polymer/lit-element": "^0.5.1"
   }
 }
