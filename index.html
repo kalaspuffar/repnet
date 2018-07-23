@@ -12,6 +12,8 @@
     
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
     <script type="module" src="/src/repnet-app.js"></script>
     <style>
       * {
@@ -24,7 +26,11 @@
         background-color: black;
       }
     </style>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
   </head>
   <body>
     <repnet-app></repnet-app>

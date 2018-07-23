@@ -29,7 +29,8 @@
     "deploy_staging": "firebase deploy --project repnet-staging --non-interactive --token"
   },
   "dependencies": {
+    "@polymer/lit-element": "^0.5.1",
     "@webcomponents/webcomponentsjs": "^2.0.0",
-    "@polymer/lit-element": "^0.5.1"
+    "wc-input": "git+ssh://git@github.com/kalaspuffar/wc-input.git#0.0.3"
   }
 }
