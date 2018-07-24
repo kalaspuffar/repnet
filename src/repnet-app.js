@@ -1,5 +1,5 @@
 import {LitElement, html} from '@polymer/lit-element';
-import '../node_modules/wc-input/wc-input.js';
+import './wc-input.js';
 import './wc-button.js';
 
 export class RepnetApp extends LitElement {
