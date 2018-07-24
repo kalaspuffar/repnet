@@ -10,8 +10,26 @@
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
     
+    <!-- icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="192x192" href="images/icons/icon-192x192.png">
+
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152x152.png">
+
+    <link rel="apple-touch-startup-image" href="images/icons/icon-192x192.png">
+
+    <!-- multiple icons for IE -->
+    <meta name="msapplication-square70x70logo" content="images/icons/icon-72x72.png">
+    <meta name="msapplication-square150x150logo" content="images/icons/icon-152x152.png">
+    <meta name="msapplication-wide310x150logo" content="images/icons/icon-152x152.png">
+
+    <meta name="theme-color" content="#9C27B0">
+
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet"  media="none" onload="if(media!=='all')media='all'">
-    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script async src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
     <script async type="module" src="/src/repnet-app.js"></script>
