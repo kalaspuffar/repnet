@@ -52,7 +52,7 @@ export class RepnetApp extends LitElement {
         }
 
         wc-input {
-          width: 500px;
+          width: 300px;
         }
 
         .flex-row {
@@ -76,7 +76,7 @@ export class RepnetApp extends LitElement {
           <h2>We promote innovation and demote trolls</h2>
           <h3>Want to be informed when you can create an account, sign-up with your email below.</h3>
           <div class="flex-row">
-            <wc-input label="Enter email to be informed when we open"></wc-input>
+            <wc-input label="Enter email"></wc-input>
             <wc-button text="Send"></wc-button>
           </div>
         </div>
