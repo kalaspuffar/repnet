@@ -48,11 +48,11 @@ export class RepnetApp extends LitElement {
         }
 
         h1, h2, h3 {
-          padding: 5px;
+          padding: 5px 10px;
         }
 
         wc-input {
-          width: 300px;
+          width: 250px;
         }
 
         .flex-row {
