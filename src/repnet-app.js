@@ -120,20 +120,20 @@ export class RepnetApp extends LitElement {
   }
 
   signup() {
+    let inputEl = this._root.querySelector('wc-input');
+
     var db = firebase.firestore();
     const settings = {timestampsInSnapshots: true};
     db.settings(settings);    
   
-    console.log(this.email);
-
     db.collection("newsletter").add({
       email: this.email
     })
     .then(function(docRef) {
-        console.log("Document written with ID: ", docRef.id);
+      inputEl.label = 'Thank you.'
     })
     .catch(function(error) {
-        console.error("Error adding document: ", error);
+      inputEl.label = 'Error: ' + error;
     });
   }
 }
