@@ -1,4 +1,7 @@
 import {LitElement, html} from '@polymer/lit-element';
+import firebase from '@firebase/app';
+import '@firebase/firestore'
+
 import './wc-input.js';
 import './wc-button.js';
 
