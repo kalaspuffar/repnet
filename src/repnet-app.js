@@ -14,7 +14,7 @@ export class RepnetApp extends LitElement {
         }
         
         .mid-banner {
-          padding: 30px 0;
+          padding: 20px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -40,14 +40,7 @@ export class RepnetApp extends LitElement {
           margin: 0 auto;          
         }
 
-        h1 {
-          font-family: 'Bungee', cursive;
-          font-size: 60px;        
-          line-height: 1;
-          padding: 0;
-        }
-
-        h1, h2, h3 {
+        h1, h2, h3, img {
           padding: 5px 10px;
         }
 
@@ -71,7 +64,7 @@ export class RepnetApp extends LitElement {
       <div class="fullscreen">
         <div class="mid-banner">
           <img width="100px" alt="Spider web" src="../images/spider-web.png" />          
-          <h1>REPNET</h1>
+          <img alt="REPNET" src="../images/repnet-logo.svg" />
           <h2>The network where reputation matters</h2>
           <h2>We promote innovation and demote trolls</h2>
           <h3>Want to be informed when you can create an account, sign-up with your email below.</h3>
