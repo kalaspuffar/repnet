@@ -6,10 +6,9 @@
 
     <title>repnet-app test</title>
 
-    <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="../../web-component-tester/browser.js"></script>
-
-    <link rel="import" href="../src/repnet-app.html">
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/web-component-tester/browser.js"></script>
+    <script type="module" src="../src/repnet-app.js"></script>
   </head>
   <body>
 
@@ -24,7 +23,7 @@
       suite('repnet-app', function() {
         test('instantiating the element with default properties works', function() {
           var element = fixture('BasicTestFixture');
-          var elementShadowRoot = element.shadowRoot;v
+          var elementShadowRoot = element.shadowRoot;
           var elementHeader = elementShadowRoot.querySelector('h2');
           assert.equal(elementHeader.innerHTML, 'Welcome!');
         });
