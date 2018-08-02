@@ -14,24 +14,24 @@
   "dependencies": {
     "@firebase/app": "^0.3.3",
     "@firebase/firestore": "^0.6.0",
-    "@polymer/lit-element": "^0.5.1",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
+    "@polymer/lit-element": "^0.5.2",
+    "@webcomponents/webcomponentsjs": "^2.0.4"
   },
   "devDependencies": {
-    "@polymer/test-fixture": "^3.0.0-pre.19",
+    "@polymer/test-fixture": "^3.0.0-pre.21",
     "async": "^2.6.1",
     "bower": "^1.8.4",
     "chai": "^4.1.2",
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.0",
     "eslint-plugin-html": "^2.0.0",
+    "firebase-tools": "^3.19.3",
     "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
-    "polymer-cli": "^1.7.2",
-    "sinon": "^5.0.10",
+    "polymer-cli": "^1.7.7",
+    "sinon": "^5.1.1",
     "test-fixture": "^1.0.2",
-    "web-component-tester": "^6.6.0",
-    "firebase-tools": "^3.18.5"
+    "web-component-tester": "^6.7.1"
   }
 }
